@@ -1,0 +1,28 @@
+Instructions 
+
+When starting the game, the user will be prompted the game with default seed 0 and default size 4x4, also the timer begin to count from 0 min 0 sec. The user can use the directional buttons to interact with the game. 
+
+The user interface has timer, high score, score (current score), current goal, current seed, restart button, pause button, quit button and bar menu (which has options for the user to select)
+
+The aim of the game is to reach the goal by pushing tiles with the similar number against each other using the arrow-directional buttons . The user can also pause, restart or quit the game with the provided buttons on the board. Every time two tiles with the same value are pushed together, they will combine into one with twice the original value. Until the user achieves the goal and wins the game, this process is repeated.
+
+Additional features:
+
+1) The user interface provides the possibility to adjust the size of the game grid. (10 p.) To adjust the size, the user uses the provided option in the menu bar setting, which has 4 different size to select
+
+2) Instead of printing (a) number character(s) in a square, the number is shown as a figure or icon. (20 p.)
+
+3) The game has a timer telling the time spent so far. (5 p.) the timer runs according to the time the user plays. If the user is in pause mode, the timer stops
+
+4) The player can collect points based on their skills. You can invent the details by yourself. (10 p.) The score is calculated based on the sum of all the figures appearing on the board.
+
+5) A non-GUI feature: The program checks if the given goal is a power of two, or if it allows only powers of two as the goal. (5 p.) the program will not let the user to enter goal which is not a power of two. Omly the user enter the goal is a power of two then the Ok button will show to press									
+6) The background color of the user interface changes when the player wins or loses the game (it e.g. becomes green due to a win, and grey due to a loss). Resetting the game sets the original color. (10 p.) The background color turns green due to a win, red due to a loss, gray due to a pause
+
+7) The game has a pause button, from which the user can pause the timer. This is possible only when the game is on. Pause has e.g. the effect that the game does not respond to key commands anymore. The game informs them about the pause for the user. (10 p.) On pause mode, the timer stops, and the background turns to a different color than in normal mode
+
+8) The user interface has a menu bar settings having many options for the user to select
+- Game size (3x3, 4x4, 5x5, 6x6)
+- Set seed or Random seeds
+- Set goal (in which user will win until reach the goal) or Unlimited goal (in which the user can play infinitely)
+- Quit 
